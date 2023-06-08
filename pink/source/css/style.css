@@ -14,6 +14,27 @@
   overflow: hidden;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(/home/krlfedya/Downloads/Pink/pink/source/fonts/opensans.woff2) format("woff2"), url(/home/krlfedya/Downloads/Pink/pink/source/fonts/opensans.woff) format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(/home/krlfedya/Downloads/Pink/pink/source/fonts/opensansbold.woff2) format("woff2"), url(/home/krlfedya/Downloads/Pink/pink/source/fonts/opensansbold.woff) format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url(/home/krlfedya/Downloads/Pink/pink/source/fonts/opensanslight.woff2) format("woff2"), url(/home/krlfedya/Downloads/Pink/pink/source/fonts/opensanslight.woff) format("woff");
+}
 .intro {
   background-color: #1D2631;
   background-image: url(/home/krlfedya/Downloads/Pink/pink/source/img/screen.png), url(/home/krlfedya/Downloads/Pink/pink/source/img/phone.png), url(/home/krlfedya/Downloads/Pink/pink/source/img/back-mobile.jpg);
@@ -25,4 +46,26 @@
   position: absolute;
   top: 0;
   margin: 0;
+}
+
+.benefits {
+  background-image: url(/home/krlfedya/Downloads/Pink/pink/source/img/iphone-screen-3.jpg), url(/home/krlfedya/Downloads/Pink/pink/source/img/iphone-3.png), url(/home/krlfedya/Downloads/Pink/pink/source/img/grey-background-benefits.svg);
+  background-repeat: no-repeat;
+  background-position: 50% calc(100% - 5px), 50% 115%, 0% 0%;
+}
+
+.benefits__tagline {
+  margin: 0;
+}
+
+.rate {
+  background-image: url(/home/krlfedya/Downloads/Pink/pink/source/img/grey-background-rate.svg);
+}
+
+.contacts__map {
+  min-height: 200px;
+  background-image: url(/home/krlfedya/Downloads/Pink/pink/source/img/map-triangle.svg), url(/home/krlfedya/Downloads/Pink/pink/source/img/map.jpg);
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+  background-position: 0% -115%;
 }/*# sourceMappingURL=style.css.map */
