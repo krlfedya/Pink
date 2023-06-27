@@ -1,12 +1,37 @@
 .benefits {
+  padding-bottom: 300px;
   background-image: 
   url(/home/krlfedya/Downloads/Pink/pink/source/img/iphone-screen-3.jpg),
   url(/home/krlfedya/Downloads/Pink/pink/source/img/iphone-3.png),
   url(/home/krlfedya/Downloads/Pink/pink/source/img/grey-background-benefits.svg);
   background-repeat: no-repeat;
-  background-position: 50% calc(100% - 5px), 50% 115%, 0% 0%;
+  background-position: 50% 100%, 50% 110%, 0 100px ;
 }
 
 .benefits__tagline {
+  margin-top: 45px;
+  margin-bottom: 120px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: center;
+}
+
+.benefits__list {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+}
+
+.benefits__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.benefits__description {
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
 }

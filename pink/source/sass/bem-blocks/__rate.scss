@@ -1,3 +1,23 @@
 .rate {
+  padding-top: 80px;
   background-image: url(/home/krlfedya/Downloads/Pink/pink/source/img/grey-background-rate.svg);
+}
+
+.rate__name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.rate__cost {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
+
+.rate__benefit {
+  font-weight: 400;
+  line-height: 30px;
 }

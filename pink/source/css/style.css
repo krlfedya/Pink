@@ -1,6 +1,11 @@
 .page__body {
+  display: flex;
+  flex-direction: column;
   width: 320px;
   margin: 0;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .visually-hidden {
@@ -36,10 +41,33 @@
   src: url(/home/krlfedya/Downloads/Pink/pink/source/fonts/opensanslight.woff2) format("woff2"), url(/home/krlfedya/Downloads/Pink/pink/source/fonts/opensanslight.woff) format("woff");
 }
 .intro {
+  padding-top: 80px;
   background-color: #1D2631;
   background-image: url(/home/krlfedya/Downloads/Pink/pink/source/img/screen.png), url(/home/krlfedya/Downloads/Pink/pink/source/img/phone.png), url(/home/krlfedya/Downloads/Pink/pink/source/img/back-mobile.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 22%, 20% 20%, 0% 0%;
+  background-position: 50% 41%, 50% 42%, 0% 0%;
+  color: #ffffff;
+}
+
+.intro__description {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: center;
+}
+
+.intro__button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.intro__inner-wrapper__description {
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
 }
 
 .page-header {
@@ -49,17 +77,62 @@
 }
 
 .benefits {
+  padding-bottom: 300px;
   background-image: url(/home/krlfedya/Downloads/Pink/pink/source/img/iphone-screen-3.jpg), url(/home/krlfedya/Downloads/Pink/pink/source/img/iphone-3.png), url(/home/krlfedya/Downloads/Pink/pink/source/img/grey-background-benefits.svg);
   background-repeat: no-repeat;
-  background-position: 50% calc(100% - 5px), 50% 115%, 0% 0%;
+  background-position: 50% 100%, 50% 110%, 0 100px;
 }
 
 .benefits__tagline {
+  margin-top: 45px;
+  margin-bottom: 120px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: center;
+}
+
+.benefits__list {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+}
+
+.benefits__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.benefits__description {
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
 }
 
 .rate {
+  padding-top: 80px;
   background-image: url(/home/krlfedya/Downloads/Pink/pink/source/img/grey-background-rate.svg);
+}
+
+.rate__name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.rate__cost {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
+
+.rate__benefit {
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .contacts__map {
@@ -68,4 +141,53 @@
   background-repeat: no-repeat;
   background-size: auto, cover;
   background-position: 0% -115%;
+}
+
+.contacts__title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: center;
+}
+
+.contacts__list {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__item__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+}
+
+.contacts__item__link {
+  display: block;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 33px;
+  color: #D22856;
+  text-decoration: none;
+  text-align: center;
+}
+
+.review__name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.review__text {
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.page-footer__logo__description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
 }/*# sourceMappingURL=style.css.map */

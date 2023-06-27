@@ -1,9 +1,32 @@
 .intro {
+  padding-top: 80px;
   background-color:#1D2631;
   background-image: 
   url(/home/krlfedya/Downloads/Pink/pink/source/img/screen.png),
   url(/home/krlfedya/Downloads/Pink/pink/source/img/phone.png),
   url(/home/krlfedya/Downloads/Pink/pink/source/img/back-mobile.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 22%, 20% 20%, 0% 0%;
+  background-position: 50% 41%, 50% 42%, 0% 0%;
+  color: #ffffff;
+}
+
+.intro__description {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: center;
+}
+
+.intro__button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.intro__inner-wrapper__description {
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
 }

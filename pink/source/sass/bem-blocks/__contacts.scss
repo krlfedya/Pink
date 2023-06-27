@@ -6,3 +6,33 @@
   background-size: auto, cover;
   background-position: 0% -115%;
 }
+
+.contacts__title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: center;
+}
+
+.contacts__list {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__item__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+}
+
+.contacts__item__link {
+  display: block;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 33px;
+  color: #D22856;
+  text-decoration: none;
+  text-align: center;
+}
